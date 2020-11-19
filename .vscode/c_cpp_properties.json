@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F407",
+            "compilerPath": "~/soft/gcc-arm-none-eabi/bin/arm-none-eabi-gсс",
+            "includePath": [
+                "${workspaceFolder}/Lib/CMSIS/inc",
+                "${workspaceFolder}/Lib/MyLib",
+                "${workspaceFolder}/Lib/FATFs",
+                "${workspaceFolder}/Lib/fatfs_conf",
+                "${workspaceFolder}/Src",
+                "${workspaceFolder}/Lib/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Lib/USB/STM32_USB_Host_Library/Core/Inc",
+                "${workspaceFolder}/Lib/USB/USB_HOST",
+                "${workspaceFolder}/Lib/USB/STM32_USB_Host_Library/Class/MSC/Inc"
+            ],
+            "defines": [
+                "STM32F407xx"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "STM32F429",
+            "compilerPath": "~/soft/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc",
+            "includePath": [
+                "${workspaceFolder}/Lib/CMSIS/inc",
+                "${workspaceFolder}/Lib/MyLib",
+                "${workspaceFolder}/Lib/fonts",
+                "${workspaceFolder}/Lib/FATFs",
+                "${workspaceFolder}/Lib/fatfs_conf",
+                "${workspaceFolder}/Lib/USB/STM32_USB_Host_Library/Class/MSC/Inc",
+                "${workspaceFolder}/Lib/USB/STM32_USB_Host_Library/Core/Inc",
+                "${workspaceFolder}/Lib/USB/USB_HOST",
+                "${workspaceFolder}/Lib/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Src"
+            ],
+            "defines": [
+                "STM32F429xx"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

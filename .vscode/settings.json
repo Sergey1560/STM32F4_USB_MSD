@@ -1,0 +1,22 @@
+{
+    "cortex-debug.armToolchainPath": "/home/sergey/soft/gcc-arm-none-eabi-8-2018-q4-major/bin",
+    "cortex-debug.openocdPath": "/usr/bin/openocd",
+    "files.associations": {
+        "main.h": "c",
+        "diskio.h": "c",
+        "usb_host.h": "c",
+        "usbh_core.h": "c",
+        "usbh_def.h": "c",
+        "usbh_conf.h": "c",
+        "usbh_msc.h": "c",
+        "usbh_msc_scsi.h": "c",
+        "usbh_msc_bot.h": "c",
+        "ff_gen_drv.h": "c",
+        "fatfs.h": "c",
+        "usbh_diskio.h": "c",
+        "misc.h": "c",
+        "touch.h": "c",
+        "ff.h": "c",
+        "sdio.h": "c"
+    }
+}
